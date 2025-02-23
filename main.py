@@ -26,7 +26,7 @@ async def run_search(task_str, max_failures=5) -> AgentHistoryList:
             llm=MODEL,
             planner_llm=MODEL,
             use_vision_for_planner=False,
-            save_conversation_path="logs/conversation/history.json",
+            save_conversation_path="logs/conversation/history",
             max_failures=max_failures
         )
 
